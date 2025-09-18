@@ -13,9 +13,10 @@ router.get("/", async (req, res) => {
 router.get("/ilorin", async (req, res) => {
   res.render("fpm-ilorin");
 });
-router.get("/join-service route", async (req, res) => {
-  res.render("https://us05web.zoom.us/j/84087359205?pwd=0dmvED");
+router.get("/join-service", (req, res) => {
+  res.redirect("https://us05web.zoom.us/j/84087359205?pwd=0dmvED");
 });
+
 
 // this are the routes for the other branches
 
