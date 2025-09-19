@@ -107,6 +107,13 @@
   --govity-letter-spacing-two: -0.02em;
 }
 
+
+
+.main-menu__list>li>span>b>a{
+  color:var(--govity-gray);
+  text-decoration:none;
+}
+
 .row {
   --bs-gutter-x: 30px;
 }
@@ -366,6 +373,7 @@ ul {
   background-color: transparent;
   border-color: transparent;
   padding: 0;
+  
 }
 
 .bootstrap-select > .dropdown-toggle::after {
