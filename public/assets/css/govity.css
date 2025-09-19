@@ -3435,7 +3435,7 @@ ul {
 }
 
 .services-one__img img {
-  /* width: 100%; */
+  width: 100%;
   height:100%;
 }
 
@@ -15721,3 +15721,14 @@ body.boxed-wrapper .main-menu__call {
   }
 }
 
+
+
+@media (min-width: 1024px) {
+  .services-one__img img {
+    width: 65%;       /* adjust between 60% – 70% */
+    height: 100%;     /* prevent stretching */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;   /* makes centering work */
+  }
+}
